@@ -42,3 +42,18 @@ tbody {
   color: #ff0000;
   text-shadow: #ffcccc;
 }
+
+.picture {
+	align: center;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  margin: 20px 0 0 20px;
+  background-size: 100% 100%;
+  background-position: center center;
+  transition: all 400ms ease;
+}
+
+.picture:hover {
+  cursor: pointer;
+  background-size: 150% 150%;
