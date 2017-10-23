@@ -44,6 +44,19 @@ tbody {
 }
 
 .picture {
+    width: 100px;
+    position: relative;
+    opacity: 0.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.picture:hover {
+    transform: scale(1.5, 1.5); 
+    opacity: 1;
+}
+/*
+.picture {
 	align: center;
   display: inline-block;
   width: 240px;
@@ -56,4 +69,4 @@ tbody {
 
 .picture:hover {
   cursor: pointer;
-  background-size: 150% 150%;
+  background-size: 150% 150%;*/
